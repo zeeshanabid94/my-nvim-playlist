@@ -18,3 +18,17 @@ repo locally as the `nvim` configuration directory.
 ```bash
 source use-this-nvim-config.sh
 ```
+
+## Install Neovim
+You can install neovim from their pre-built tarball available [here](https://github.com/neovim/neovim/blob/master/INSTALL.md#pre-built-archives-2).
+The guide shows how to install neovim. The guide is repeated below:
+```bash
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux64.tar.gz
+```
+
+Don't forget to update you `.bashrc` or `.zshrc` with the following:
+```bash
+export PATH="$PATH:/opt/nvim-linux64/bin"
+```
