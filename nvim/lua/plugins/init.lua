@@ -27,7 +27,7 @@ plugins = {
 	{
 		"neoclide/coc.nvim",
 		branch = "release",
-		build = ":CocInstall coc-json coc-tsserver coc-rust-analyzer"
+		build = ":CocInstall coc-json coc-tsserver coc-rust-analyzer coc-sumneko-lua"
 	},
 	-- Undo tree so that I don't have to hate myself while trying to undo my changes
 	{
@@ -36,6 +36,14 @@ plugins = {
 	-- Git plugin
 	{
 		"tpope/vim-fugitive"
-	}
+	},
+    -- File tree
+    {
+        "nvim-tree/nvim-tree.lua"
+    },
+    -- Dev icons for some pretty visuals
+    {
+        "nvim-tree/nvim-web-devicons"
+    }
 }
 
