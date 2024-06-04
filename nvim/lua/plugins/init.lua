@@ -44,6 +44,9 @@ plugins = {
     -- Dev icons for some pretty visuals
     {
         "nvim-tree/nvim-web-devicons"
+    },
+    {
+        "airblade/vim-gitgutter"
     }
 }
 
