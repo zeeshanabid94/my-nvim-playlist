@@ -9,6 +9,10 @@ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 sudo apt-get update
 sudo apt-get install ripgrep
 
+# Install rust tools and build system
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+. "$HOME/.cargo/env"
+
 # Add nvim to PATH
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
