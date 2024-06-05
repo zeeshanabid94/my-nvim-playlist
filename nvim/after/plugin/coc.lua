@@ -2,6 +2,11 @@
 -- diagnostics appeared/became resolved
 vim.opt.signcolumn = "yes"
 
+-- List of global extensions used by default
+vim.g.coc_global_extensions = {
+    "coc-json",  "coc-tsserver", "coc-rust-analyzer", "coc-sumneko-lua"
+}
+
 local keyset = vim.keymap.set
 
 -- Autocomplete

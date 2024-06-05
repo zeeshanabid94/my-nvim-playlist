@@ -27,7 +27,6 @@ plugins = {
 	{
 		"neoclide/coc.nvim",
 		branch = "release",
-		build = ":CocInstall coc-json coc-tsserver coc-rust-analyzer coc-sumneko-lua"
 	},
 	-- Undo tree so that I don't have to hate myself while trying to undo my changes
 	{
