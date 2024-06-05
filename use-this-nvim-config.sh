@@ -25,7 +25,7 @@ nvm use --lts # use lts node version
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
 # Get the directory of the script file
-script_dir=$(dirname "$(realpath \"$0\")")
+script_dir=$(dirname "$(realpath "$0")")
 
 # Export nvim config home as the nvim directory
 export XDG_CONFIG_HOME="$script_dir"
