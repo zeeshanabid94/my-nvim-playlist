@@ -5,9 +5,12 @@ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.
 sudo rm -rf /opt/nvim
 sudo tar -C /opt -xzf nvim-linux64.tar.gz
 
-# Install ripgrep
+# Install ripgrep for telescope
 sudo apt-get update
 sudo apt-get install ripgrep
+
+# Install fd for telescope
+sudo apt-get install fd-find
 
 # Install rust tools and build system
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y

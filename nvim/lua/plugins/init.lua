@@ -47,6 +47,12 @@ plugins = {
     },
     {
         "airblade/vim-gitgutter"
+    },
+    {
+        "Bekaboo/dropbar.nvim"
+    },
+    {
+        "nvim-lualine/lualine.nvim"
     }
 }
 
