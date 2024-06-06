@@ -52,6 +52,10 @@ plugins = {
     },
     {
         "nvim-lualine/lualine.nvim"
+    },
+    -- Floating terminals for some fun
+    {
+        "voldikss/vim-floaterm"
     }
 }
 

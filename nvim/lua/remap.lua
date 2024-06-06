@@ -42,6 +42,6 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- Get out of terminal mode by pressing escape
-vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = true})
+-- vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = true})
 
 
