@@ -60,5 +60,5 @@ script_dir=$(dirname "$(realpath "$0")")
 # Export nvim config home as the nvim directory
 export XDG_CONFIG_HOME="$script_dir"
 
-append_line_to_file "export PATH=\"$PATH:/opt/nvim-linux64/bin\"" "~/.zshrc"
+append_line_to_file "export PATH=\"/opt/nvim-linux64/bin:\$PATH\"" "~/.zshrc"
 append_line_to_file "export XDG_CONFIG_HOME=$script_dir" "~/.zshrc"
