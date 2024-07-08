@@ -56,6 +56,9 @@ plugins = {
     -- Floating terminals for some fun
     {
         "voldikss/vim-floaterm"
+    },
+    {
+        "tris203/precognition.nvim"
     }
 }
 
