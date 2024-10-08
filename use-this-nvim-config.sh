@@ -26,6 +26,9 @@ append_line_to_file() {
     fi
 }
 
+# Install build essential
+sudo apt update
+sudo apt install build-essential
 
 # Install latest nvim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
